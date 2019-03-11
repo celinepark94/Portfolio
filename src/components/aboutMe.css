@@ -1,0 +1,15 @@
+
+
+.aboutMeContent {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 24px;
+}
+
+.contactLinks{
+  text-align: right;
+}
+
+.linkImg {
+  width: 30px;
+}

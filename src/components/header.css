@@ -1,0 +1,49 @@
+
+  /* notes for future me:
+  dont forget to change formats when necessary @media */
+
+
+
+.header {
+  display: grid;
+  grid-template-columns: auto 500px;
+  align-items: center;
+  margin-top: 48px;
+  margin-bottom: 124px;
+}
+
+.nameAndContact {
+  padding: 0;
+  margin-block-end: 0px;
+}
+
+#name {
+  margin: 0;
+  padding: 0;
+  line-height: 2em;
+  letter-spacing: 4px;
+}
+
+#contact {
+  margin: 0;
+  padding: 0;
+  line-height: .5em;
+}
+
+#headerEmail {
+  color: #C42C2C;
+}
+
+.nav{
+  font-weight: 500;
+  width: 500px;
+  justify-self: end;
+  margin: 0px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  justify-items: end;
+
+
+
+}

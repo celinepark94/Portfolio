@@ -1,0 +1,21 @@
+.section{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 24px;
+}
+
+/* .sectionText{
+  margin-right: 24px;
+} */
+
+.SectionImages {
+  display: grid;
+  grid-template-columns: 216px 216px 216px;
+  grid-template-rows: 216px 216px;
+  grid-gap: 24px;
+  justify-content: center;
+}
+
+.sectionText h2{
+  font-weight: 600;
+}

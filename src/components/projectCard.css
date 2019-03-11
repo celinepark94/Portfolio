@@ -1,0 +1,51 @@
+.projectCardGroup {
+  /* background-color: #f3f3f3; */
+  border-radius: 4px;
+  /* margin: 12px; */
+  height: 216px;
+  width: 216px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  border-style: solid;
+  border-color: #e0e0e0;
+  border-width: .5px;
+}
+
+.projectCardGroup:hover {
+  transform: scale(1.008, 1.008);
+  box-shadow: 0 10px 20px rgba(0,0,0, 0.2);
+}
+
+.projectCardGroup h2 {
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  font-size: 1.1em;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.projectCardGroup p{
+  color: #2A2A2A;
+  font-weight: 400;
+  margin: 0;
+}
+
+.background{
+  position: absolute;
+  height: 100%;
+  z-index: -1;
+}
+
+.projectCardContent{
+  margin: 32px 16px 16px 16px;
+  align-items: center;
+  text-align: center;
+}
+
+.icon {
+  height: 64px;
+}

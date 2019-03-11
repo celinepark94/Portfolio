@@ -1,0 +1,49 @@
+
+  /* notes for future me:
+  dont forget to change formats when necessary @media */
+
+
+/* fonts up here */
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i');
+
+
+/* real shit starts here */
+body {
+  font-family: Raleway;
+  margin: auto;
+  max-width: 1056px;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: #2A2A2A;
+}
+
+a:hover {
+  color: #C42C2C;
+  /* cursor: pointer; */
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0;
+  font-weight: 500;
+  color: #2A2A2A;
+}
+
+h2 {
+  font-size: 1em;
+  font-weight: 500;
+  color: #2A2A2A;
+}
+
+
+p {
+  font-size: 1em;
+  font-weight: 100;
+  margin: 0;
+  line-height: 1.25em;
+  color:#5F5F5F;
+
+}
