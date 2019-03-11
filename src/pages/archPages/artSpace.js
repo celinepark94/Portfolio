@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import '/Users/celine/Desktop/Github/Portfolio/src/components/globalStyle.css'
-import '/Users/celine/Desktop/Github/Portfolio/src/components/product.css'
+import '../../components/globalStyle.css'
+import '../../components/product.css'
 
-import Header from '/Users/celine/Desktop/Github/Portfolio/src/components/header'
+import Header from '../../components/header'
 
 
 const archArtSpace = () => (

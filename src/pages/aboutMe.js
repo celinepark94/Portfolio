@@ -3,17 +3,18 @@ import { Link } from 'gatsby'
 
 import '../components/globalStyle.css'
 import '../components/aboutMe.css'
-import Header from '../components/header'
+
+import Header from '../components/header.js'
 
 const AboutMe = () => (
   <div className= "aboutMeGroup">
 
-    <Header />
+    <Header/>
 
     <div className="aboutMeContent">
 
       <div className="contactLinks">
-        <img src={require('/Users/celine/Desktop/Github/Portfolio/src/img/link.png')} className="linkImg" />
+        <img src={require('../img/link.png')} className="linkImg" />
 
         <p> Email </p>
         <p> LinkdIn </p>
